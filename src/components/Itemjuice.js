@@ -50,7 +50,7 @@ const Itemjuice = () => {
     },  
   ]);
 
-  // 🔥 Filtering logic
+  // 🔥 Filtering logic HI
   let filteredJuice = Juice;
 
   if (selectedItem === 2) {
