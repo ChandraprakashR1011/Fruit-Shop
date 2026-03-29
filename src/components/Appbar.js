@@ -23,8 +23,8 @@ export const Appbar = () => {
         {/* LOGO */}
         <div className="flex justify-between">
           <div>
-            <span className="text-green-500 font-bold text-4xl"> Fruit</span>
-            <span className="text-slate-500 font-thin text-3xl">Shop</span>
+            <span className="text-green-500 font-bold text-4xl"> FRESCO </span>
+            <span className="text-slate-500 font-thin text-3xl"> </span>
           </div>
 
           {/* MOBILE MENU */}
