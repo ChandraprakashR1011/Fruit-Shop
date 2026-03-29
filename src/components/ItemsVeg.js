@@ -13,71 +13,82 @@ const ItemsVeg = () => {
       price: 100,
       image:"/assests/vegetables/1.png"
     },
-    {
-      id: 21,
-      image:"/assests/vegetables/2.png",
-      name: 'Beans',
-      price: 200
-    },
-    {
-      id: 22,
-      image:"/assests/vegetables/3.png",
-      name: 'Potato',
-      price: 250
-    },
-    {
-      id: 23,
-      image:"/assests/vegetables/4.png",
-      name: 'Tomato',
-      price: 300
-    },
-    {
-      id: 24,
-      image: "/assests/vegetables/5.png",
-      name: 'Ladyfinger',
-      price: 250
-    },
-    {
+       {
       id: 25,
       image:  "/assests/vegetables/6.png",
       name: 'Cabage',
       price: 150
     },
-    {
-      id:26,
-      image: "/assests/vegetables/7.png",
-      name:'Onion',
-      price:200
-    },
-    {
-      id:27,
-      image: "/assests/vegetables/8.png",
-      name:'Broccoli',
-      price:250
-    },
-    {
+        {
       id:28,
       image: "/assests/vegetables/9.png",
       name:'Beetroot',
       price:100
     },
     {
+      id: 21,
+      image:"/assests/vegetables/2.png",
+      name: 'Beans',
+      price: 190
+    },
+    {
+      id: 22,
+      image:"/assests/vegetables/3.png",
+      name: 'Potato',
+      price: 250,
+      offer: "10% OFF"
+    },
+    {
+      id: 23,
+      image:"/assests/vegetables/4.png",
+      name: 'Tomato',
+      price: 300,
+      offer:"8% OFF"
+
+    },
+    {
+      id: 24,
+      image: "/assests/vegetables/5.png",
+      name: 'Ladyfinger',
+      price: 250,
+      offer:"15% OFF"
+    },
+ 
+    {
+      id:26,
+      image: "/assests/vegetables/7.png",
+      name:'Onion',
+      price:200,
+      offer:"20% OFF"
+    },
+    {
+      id:27,
+      image: "/assests/vegetables/8.png",
+      name:'Broccoli',
+      price:250,
+      offer:"18% OFF"
+    },
+
+    {
       id:29,
       image: "/assests/vegetables/10.png",
       name:'Drumstick',
-      price:200
+      price:200,
+      offer:"12% OFF"
     },
     {
       id:30,
       image: "/assests/vegetables/11.png",
       name:'Pumpkin',
-      price:200
+      price:200,
+      offer:"5% OFF"
     },
     {
       id:31,
       image: "/assests/vegetables/12.png",
       name:'Bell pepper',
-      price:200
+      price:200,
+      offer:"10% OFF"
     }
   ]);
 

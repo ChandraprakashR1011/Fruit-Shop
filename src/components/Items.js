@@ -13,71 +13,82 @@ const Items = () => {
       price: 100,
       image:"/assests/fruits/1.jpeg"
     },
-    {
-      id: 2,
-      image:"/assests/fruits/2.jpeg",
-      name: 'Pomegranate',
-      price: 200
-    },
-    {
-      id: 3,
-      image:"/assests/fruits/3.jpeg",
-      name: 'Black Grapes',
-      price: 250
-    },
-    {
-      id: 4,
-      image:"/assests/fruits/4.jpeg",
-      name: 'Grape Fruit',
-      price: 300
-    },
-    {
-      id: 5,
-      image: "/assests/fruits/5.jpeg",
-      name: 'Berry',
-      price: 250
-    },
-    {
-      id: 6,
-      image: "/assests/fruits/6.jpeg",
-      name: 'lemon',
-      price: 150
-    },
-    {
-      id:7,
-      image:"/assests/fruits/7.jpeg",
-      name:'Orange',
-      price:200
-    },
-    {
-      id:9,
-      image:"/assests/fruits/9.png",
-      name:'Mango',
-      price:250
-    },
-    {
+        {
       id:8,
       image:"/assests/fruits/8.png",
       name:'Pear',
       price:100
     },
+        {
+      id: 6,
+      image: "/assests/fruits/6.jpeg",
+      name: 'lemon',
+      price: 150
+    },
+        {
+      id:7,
+      image:"/assests/fruits/7.jpeg",
+      name:'Orange',
+      price:150
+    },
+    {
+      id: 2,
+      image:"/assests/fruits/2.jpeg",
+      name: 'Pomegranate',
+      price: 200,
+      offer:"7% OFF"
+    },
+    {
+      id: 3,
+      image:"/assests/fruits/3.jpeg",
+      name: 'Black Grapes',
+      price: 250,
+      offer:"15% OFF"
+    },
+    {
+      id: 4,
+      image:"/assests/fruits/4.jpeg",
+      name: 'Grape Fruit',
+      price: 300,
+      offer:"2% OFF"
+    },
+    {
+      id: 5,
+      image: "/assests/fruits/5.jpeg",
+      name: 'Berry',
+      price: 250,
+      offer:"6% OFF"
+    },
+
+
+    {
+      id:9,
+      image:"/assests/fruits/9.png",
+      name:'Mango',
+      price:250,
+      offer:"9% OFF"
+    },
+
     {
       id:10,
       image:"/assests/fruits/10.png",
       name:'Papaya',
-      price:200
+      price:200,
+      offer:"13% OFF"
     },
     {
       id:11,
       image:"/assests/fruits/11.png",
       name:'Passion Fruit',
-      price:200
+      price:200,
+      offer:"12% OFF"
     },
     {
       id:12,
       image:"/assests/fruits/12.png",
       name:'Drango Fruit',
-      price:200
+      price:200,
+      offer:"5% OFF"
     }
   ]);
 

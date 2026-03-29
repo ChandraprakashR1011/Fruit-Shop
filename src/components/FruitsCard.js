@@ -66,9 +66,11 @@ const FruitsCard = ({ item }) => {
         </div>
       </div>
 
-      <span className="absolute top-3 right-3 bg-sky-300 text-white p-1 rounded-lg text-sm">
-        1% off
-      </span>
+      {item.offer &&  
+              <span className="absolute top-3 right-3 bg-sky-300 text-white p-1 rounded-lg text-sm">
+              {item.offer}
+              </span>
+      }
     </div>
   );
 };
